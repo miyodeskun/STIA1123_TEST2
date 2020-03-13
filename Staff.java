@@ -32,7 +32,7 @@ public class Staff {
     void displayIncomeInfo(){
         System.out.println("<<<< INCOME INFO >>>>");
         System.out.println("Income amount: RM " + income.getAmount());
-        System.out.println("Tax: RM " + income.getTax());
+        System.out.println("Tax: " + income.getTax() + "%");
         System.out.println("Total Tax Paid: RM " + income.getTotalTax());
         System.out.println("Total Net Income: RM " + calculateNetIncome());
         System.out.println("Income type: " + income.getIncomeType());
